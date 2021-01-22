@@ -5,7 +5,8 @@ import json
 
 # Общее замечание - оформить код в соответствии с pep8.
 # autopep8 https://pypi.org/project/autopep8/ или ручками https://pep8.org/
-# Так же добавить docstring к функциям и классам
+# Так же добавить docstring к функциям и классам.
+# Добавить конец строки в файл.
 class Record:
     def __init__(self, amount, comment, date=''):
         self.amount=amount
